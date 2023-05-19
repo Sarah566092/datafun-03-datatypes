@@ -237,6 +237,7 @@ asc_scores2 = score_list.sort()
 # Sort the list in descending order using the sort() method
 desc_scores2 = score_list.sort(reverse=True)
 
+
 # Copy the list to a new list
 new_scores = score_list.copy()
 
@@ -265,7 +266,7 @@ logger.info(f"The last score of the list: {last}")
 # You could pass in a named function, but honestly this is easier
 # Say "keep x such that x > 100 is True" given new_scores
 # Cast the result using square brackets to get a list
-scores_over_100 = list(filter(lambda x: x > 100, new_scores))
+scores_over_100 = [filter(lambda x: x > 100, new_scores)]
 
 
 # Use the built-in function map() anywhere you need to transfrom
