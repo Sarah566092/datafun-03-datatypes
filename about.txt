@@ -1,0 +1,44 @@
+
+
+==============================================================
+==============================================================
+
+ Welcome!
+
+ It's 2023-05-16 at 10:54 PM
+
+ This file is running on:    posix Darwin 20.6.0
+ 
+ The Python version is:      3.11.3
+ 
+ The Python interpreter is at:
+ /usr/local/bin/python3
+
+ The active environment should be either conda OR pip (one should be None):
+
+     Active conda env is: None
+     Active pip env is:   None
+ 
+ The path to the active virtual environment is:
+
+ /Library/Frameworks/Python.framework/Versions/3.11
+ 
+ The Current Working Directory (CWD) where this command was launched is:
+
+ /Users/sarah/Documents/datafun-03-datatypes
+ 
+ The absolute path to the data directory is:
+
+ /Users/sarah/Documents/datafun-03-datatypes/
+ 
+ The absolute path to this source directory is:
+
+ /Users/sarah/Documents/datafun-03-datatypes
+ 
+ The absolute path to this file is:
+
+ /Users/sarah/Documents/datafun-03-datatypes/about.py
+ 
+==============================================================
+==============================================================
+

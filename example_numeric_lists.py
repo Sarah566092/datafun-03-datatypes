@@ -8,10 +8,16 @@ Must be 3.10 or greater to get the correlation and linear regression.
 
 Uses only Python Standard Library module
 
+Added the logger function and used it to print several values (Sarah DeConink)
+
 """
 
 import statistics
 import math
+
+from util_datafun_logger import setup_logger
+logger,logname = setup_logger(__file__)
+
 
 # define a variable with some univariant data
 # (one varabile, many readings)
@@ -95,6 +101,14 @@ variance = statistics.variance(score_list)
 correlationxy = statistics.correlation(xtimes_list, yvalues_list)
 
 
+# Print Descriptive Statistics
+logger.info(f"The mean of the scores is {mean:.2f}.")
+logger.info(f"The median of the scores is {median}.")
+logger.info(f"The mode of the scores is {mode}.")
+logger.info(f"The standard deviation of the scores is {stdev:.2f}.")
+logger.info(f"The variance of the scores is {variance:.2f}.")
+
+
 # Predictive: Machine Learning - Linear Regression
 # If the corrlation is close to 1.0, then the data is linearly related
 # If so, use statistics module to get linear regression for list1 and list2
@@ -117,6 +131,16 @@ newx = x_max * 1.5  # predict for a future x value
 # y = mx + b
 
 newy = slope * newx + intercept
+
+# Print Correlation and Prediction
+logger.info(f"The xtimes_list is {xtimes_list}.")
+logger.info(f"The yvalues_list is {yvalues_list}.")
+logger.info(f"The correlation of xtimes_list and the yvalues_list is {correlationxy:.2f}.")
+logger.info(f"The slope is {slope:.2f}.")
+logger.info(f"The intercept is {intercept:.2f}.")
+logger.info(f"The new x value is {newx}.")
+logger.info(f"The new predicted y value is {newy:.2f}.")
+
 
 
 # BUILT-IN FUNCTIONS ......................................
@@ -142,6 +166,17 @@ asc_scores = sorted(score_list)
 
 # Return a new list soreted in descending order
 desc_scores = sorted(score_list, reverse=True)
+
+
+# Print Values for Python Built-in Functions
+logger.info(f"There were a total of {len} scores provided.")
+logger.info(f"The lowest score is {min}.")
+logger.info(f"The highest score is {max}.")
+logger.info(f"The sum of the scores is {sum}.")
+logger.info(f"The average of the scores is {avg:.2f}.")
+logger.info(f"The scores without repeats: {set(score_list)}.")
+logger.info(f"The scores from lowest to highest: {asc_scores}.")
+logger.info(f"The scores from highest to lowest {desc_scores}.")
 
 
 """
@@ -171,19 +206,27 @@ copy(): Return a shallow copy of the list.
 
 # append an item to the end of the list
 lst = [1, 2, 3]
+logger.info(f"Here is a list: {lst}")
+
 lst.append(4)
+logger.info(f"Append the list with '4': {lst}")
 
 # extend the list with another list
 lst.extend([4, 5, 6])
+logger.info(f"Extend the list with '4, 5, 6': {lst}")
 
 # insert an item at a given position (0 = first item)
 i = 0
 newvalue = 42
 lst.insert(i, newvalue)
+logger.info(f"Add a new value to the list: {lst}")
 
 # remove an item
 item_to_remove = 42
 lst.remove(item_to_remove)
+logger.info(f"Remove the value from the list: {lst}")
+
+
 
 # Count how many times 111 appears in the list
 ct_of_111 = score_list.count(111)
@@ -206,11 +249,11 @@ first = new_scores.pop(0)
 # The last item in a list is at index -1
 last = new_scores.pop(-1)
 
-# Remove the item at index 3 from the new list
-fourth = new_scores.pop(3)
-print(new_scores)
-print(fourth)
-print(new_scores)
+# Print values for the List Methods
+logger.info(f"How many times does 111 appear in our score list? {ct_of_111}")
+logger.info(f"The first score of the list: {first}")
+logger.info(f"The last score of the list: {last}")
+
 
 
 # TRANFORMATIONS ............................
@@ -222,23 +265,30 @@ print(new_scores)
 # You could pass in a named function, but honestly this is easier
 # Say "keep x such that x > 100 is True" given new_scores
 # Cast the result using square brackets to get a list
-scores_over_100 = [filter(lambda x: x > 100, new_scores)]
+scores_over_100 = list(filter(lambda x: x > 100, new_scores))
+
 
 # Use the built-in function map() anywhere you need to transfrom
 
 # Map each element to its square
 # Say "map x to x squared" given new_scores
 # Cast the result using square brackets to get a list
-doubled_scores = [map(lambda x: x * 2, new_scores)]
+doubled_scores = list(map(lambda x: x * 2, new_scores))
 
 # Map each element to its square root
 # Say "map x to the square root of x" and cast to a list
-sqrt_scores = map(lambda x: math.sqrt(x), new_scores)
+sqrt_scores = list(map(lambda x: math.sqrt(x), new_scores))
 
 # Map each element (radius) to its area
 radius_list = [1, 2, 3, 4, 5]
 # Say "map r to pi r squared" and cast to a list
 area_list = [map(lambda r: math.pi * r * r, radius_list)]
+
+
+# Print values for List Transformations using filter() and map()
+logger.info(f"Here are the scores that are over 100: {scores_over_100}")
+logger.info(f"Here are the scores doubled: {doubled_scores}")
+
 
 
 # TRANFORMATIONS - Using List Comprehensions
@@ -282,3 +332,8 @@ print("Add print statements to the code to see what happens.")
 print("Explore enough to understand.")
 print("Then apply what you know to your own domain.")
 print()
+
+
+# Use built-in open() function to read the log file and print it to the terminal
+with open(logname, 'r') as file_wrapper:
+    print(file_wrapper.read())
