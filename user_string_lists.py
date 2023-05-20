@@ -44,6 +44,7 @@ def menu_info():
     logger.info(f"The veggie toppings: {list_veggies}")
     logger.info(f"The cheeses: {list_cheeses}")
     logger.info(f"The spreads: {list_spreads}")
+    logger.info(f"The marketing adjectives: {list_marketing_adjectives}")
 
 # String Lists 1. Using Python built-in functions to understand information about our menu choices
 
@@ -62,7 +63,7 @@ def menu_built_in_funtctions():
     cheese_lengeth = len(list_cheeses)
     spread_length = len(list_spreads)
     
-    logger.info(f"There are a {names_length} types of sandwiches, {veggies_length} types of veggies, {list_cheeses} types of cheeses, and {spread_length} types of spreads.")
+    logger.info(f"There are a {names_length} types of sandwiches, {veggies_length} types of veggies, {cheese_lengeth} types of cheeses, and {spread_length} types of spreads.")
     
     all_menu_words = list(list_names + list_veggies + list_cheeses + list_spreads)
     menu_words_length = len(all_menu_words)

@@ -50,9 +50,6 @@ tupleCat = tupleA + tupleB
 # tuple repetition
 tupleAThrice = tupleA * 3
 
-# TODO: Start using this f-string "syntactic sugar" for quick ouptut
-# just add space = space inside the curly braces
-# it will print the name of the variable and the value
 print(f"{tupleA = }")
 print(f"{tupleB = }")
 print(f"{tupleCat = }")
@@ -61,21 +58,27 @@ print(f"{tupleAThrice = }")
 # tuple membership testing
 
 tupleD = (1, 2, 3)
+print(f"Tuple D: {tupleD}")
 hasOne = 1 in tupleD  # True
+print(f"Has 1 in tuple D: {hasOne}")
 hasFour = 4 in tupleD  # False
-
+print(f"Has 4 in tuple D: {hasFour}")
 
 # tuple indexing (0 is first, -1 is last, or 1 less than the length)
 
 my_tuple = (1, 2, 3)
+print(f"My Tuple: {my_tuple}")
 first = my_tuple[0]
+print(f"First index in my tuple: {first}")
 second = my_tuple[1]
+print(f"Second index in my tuple: {second}")
 third = my_tuple[2]
+print(f"Third index in my tuple: {third}")
 last = my_tuple[-1]
+print(f"Last index in my tuple: {last}")
 
 
 # Use tuples to return multiple values from a function
-
 
 def divide_and_remainder(dividend, divisor):
     quotient = dividend // divisor
@@ -112,23 +115,30 @@ Set symmetric difference (using the symmetric_difference method or ^ operator)
 
 setA = {1, 2, 3, 4, 5}
 setB = {4, 5, 6, 7, 8}
+print(f"SetA: {setA} and SetB: {setB}")
 
 # set union
 setC = setA | setB
+print(f"Union of A and B: {setC}")
 
 # set intersection
 setD = setA & setB
+print(f"Intersection of A and B: {setD}")
 
 # set difference
 setE = setA - setB
+print(f"SetA - SetB: {setE}")
 
 # sets are often used to remove duplicates from a list
 # after gettin the set, convert it back to a list with list() or []
 listWords = ["apple", "banana", "apple", "pear", "banana", "orange"]
+print(listWords)
 setWords = set(listWords)
+print(setWords)
 listWordsNoDuplicates = list(setWords)
+print(listWordsNoDuplicates)
 listWordsNoDuplicates = [setWords]  # same as above
-
+print(listWordsNoDuplicates)
 
 """
 
@@ -211,6 +221,7 @@ print(word_counts_dict)
 # Say "I want word:count for each word in word_list"
 # Remember to wrap the result in curly braces
 word_counts_dict = {word: word_list.count(word) for word in word_list}
+print(word_counts_dict)
 
 # Spend most of your practice on comprehensions - they are
 # key to transforming data in Python.

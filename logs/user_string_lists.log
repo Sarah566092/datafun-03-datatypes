@@ -1,44 +1,45 @@
-2023-05-20 16:51:46,344 =============================================================
-2023-05-20 16:51:46,344 =============================================================
-2023-05-20 16:51:46,345 Today is 2023-05-20 at 04:51 PM
-2023-05-20 16:51:46,345 This file is running on: posix Darwin 20.6.0
-2023-05-20 16:51:46,345 The Python version is: 3.11.3
-2023-05-20 16:51:46,345 The active conda environment is:  None
-2023-05-20 16:51:46,345 The active pip environment is:    None
-2023-05-20 16:51:46,345 The active environment path is:   /Library/Frameworks/Python.framework/Versions/3.11
-2023-05-20 16:51:46,346 The current working directory is: /Users/sarah/Documents/datafun-03-datatypes
-2023-05-20 16:51:46,346 This source file is in:           /Users/sarah/Documents/datafun-03-datatypes
-2023-05-20 16:51:46,346 =============================================================
-2023-05-20 16:51:46,346 =============================================================
-2023-05-20 16:51:46,346 Calling functions from main block
-2023-05-20 16:51:46,346 Let's create 5 lists of words that we could use in our menu for Sarah's Sammie Shoppe.
-2023-05-20 16:51:46,346 The sandwich names: ['BLT', 'Fried Chicken', 'Flank Steak', 'Sliced Turkey', 'Pulled Pork', 'Portabella Mushroom']
-2023-05-20 16:51:46,346 The veggie toppings: ['lettuce', 'jalapenos', 'grilled peppers', 'onions', 'tomato', 'pickles']
-2023-05-20 16:51:46,346 The cheeses: ['colby', 'pepper jack', 'american', 'cheddar', 'provolone', 'Gruyere']
-2023-05-20 16:51:46,346 The spreads: ['mayonnaise', 'garlic aioli', 'honey mustard', 'guacamole', 'ranch', 'pepper BBQ']
-2023-05-20 16:51:46,346 
-2023-05-20 16:51:46,346 String Lists 1. Using Python Built-in Functions
-2023-05-20 16:51:46,347 Here are all of the words that we can choose from in a tuple if needed: [('BLT', 'Dynamic', 'lettuce', 'colby', 'mayonnaise'), ('Fried Chicken', 'Subtle', 'jalapenos', 'pepper jack', 'garlic aioli'), ('Flank Steak', 'Juicy', 'grilled peppers', 'american', 'honey mustard'), ('Sliced Turkey', 'Stellar', 'onions', 'cheddar', 'guacamole'), ('Pulled Pork', 'Fresh', 'tomato', 'provolone', 'ranch'), ('Portabella Mushroom', 'Jammin', 'pickles', 'Gruyere', 'pepper BBQ')]
-2023-05-20 16:51:46,347 There are a 6 types of sandwiches, 6 types of veggies, ['colby', 'pepper jack', 'american', 'cheddar', 'provolone', 'Gruyere'] types of cheeses, and 6 types of spreads.
-2023-05-20 16:51:46,347 There are a total of 24 words used in the choices and a total of 24 unique words
-2023-05-20 16:51:46,347 There are no repeated words in the menu choices.
-2023-05-20 16:51:46,347 
-2023-05-20 16:51:46,347 String Lists 2. Calling create_random_sandwich()
-2023-05-20 16:51:46,347 Random sandwich: The Stellar Fried Chicken with tomato, colby cheese, and mayonnaise spread.
-2023-05-20 16:51:46,347 
-2023-05-20 16:51:46,347 String Lists 2. Calling create_random_sandwich()
-2023-05-20 16:51:46,347 Random sandwich: The Juicy Flank Steak with tomato, cheddar cheese, and garlic aioli spread.
-2023-05-20 16:51:46,347 
-2023-05-20 16:51:46,347 String Lists 2. Calling create_random_sandwich()
-2023-05-20 16:51:46,348 Random sandwich: The Jammin BLT with jalapenos, provolone cheese, and ranch spread.
-2023-05-20 16:51:46,348 
-2023-05-20 16:51:46,348 String Lists 2. Calling create_random_sandwich()
-2023-05-20 16:51:46,348 Random sandwich: The Dynamic Flank Steak with pickles, colby cheese, and ranch spread.
-2023-05-20 16:51:46,348 
-2023-05-20 16:51:46,348 String Lists 3. Get Unique Words
-2023-05-20 16:51:46,348 Calling process_text_zen_of_python()
-2023-05-20 16:51:46,355 The list of words is: ['Beautiful', 'is', 'better', 'than', 'ugly.', 'Explicit', 'is', 'better', 'than', 'implicit.', 'Simple', 'is', 'better', 'than', 'complex.', 'Complex', 'is', 'better', 'than', 'complicated.', 'Flat', 'is', 'better', 'than', 'nested.', 'Sparse', 'is', 'better', 'than', 'dense.', 'Readability', 'counts.', 'Special', 'cases', "aren't", 'special', 'enough', 'to', 'break', 'the', 'rules.', 'Although', 'practicality', 'beats', 'purity.', 'Errors', 'should', 'never', 'pass', 'silently.', 'Unless', 'explicitly', 'silenced.', 'In', 'the', 'face', 'of', 'ambiguity,', 'refuse', 'the', 'temptation', 'to', 'guess.', 'There', 'should', 'be', 'one--', 'and', 'preferably', 'only', 'one', '--obvious', 'way', 'to', 'do', 'it.', 'Although', 'that', 'way', 'may', 'not', 'be', 'obvious', 'at', 'first', 'unless', "you're", 'Dutch.', 'Now', 'is', 'better', 'than', 'never.', 'Although', 'never', 'is', 'often', 'better', 'than', '*right*', 'now.', 'If', 'the', 'implementation', 'is', 'hard', 'to', 'explain,', "it's", 'a', 'bad', 'idea.', 'If', 'the', 'implementation', 'is', 'easy', 'to', 'explain,', 'it', 'may', 'be', 'a', 'good', 'idea.', 'Namespaces', 'are', 'one', 'honking', 'great', 'idea', '--', "let's", 'do', 'more', 'of', 'those!']
-2023-05-20 16:51:46,358 There are 137 words in the file.
-2023-05-20 16:51:46,359 The set of unique words is: {'easy', 'implementation', '--', 'pass', 'practicality', 'Although', 'and', 'purity.', 'temptation', 'do', 'complicated.', 'face', 'those!', 'be', 'a', 'better', 'beats', 'preferably', 'idea', 'In', "let's", '--obvious', 'dense.', 'more', 'enough', 'If', 'way', 'obvious', 'it', 'ambiguity,', 'Complex', 'are', 'complex.', 'refuse', 'is', 'bad', 'idea.', 'not', 'Errors', 'Dutch.', 'There', 'than', 'great', 'it.', 'unless', 'rules.', 'may', 'explicitly', 'implicit.', 'now.', 'Explicit', 'Special', 'never.', 'silently.', 'cases', 'to', 'one--', 'Beautiful', 'never', 'explain,', 'should', 'often', 'of', 'good', 'nested.', 'Unless', 'Namespaces', 'guess.', 'Flat', 'break', 'the', 'ugly.', 'one', "aren't", 'only', '*right*', 'Simple', 'silenced.', 'hard', "it's", 'special', 'Now', 'at', 'that', 'first', 'Sparse', 'honking', 'counts.', 'Readability', "you're"}
-2023-05-20 16:51:46,359 There are 90 unique words in the file.
-2023-05-20 16:51:46,360 Here is the sorted list: ['*right*', '--', '--obvious', 'Although', 'Although', 'Although', 'Beautiful', 'Complex', 'Dutch.', 'Errors', 'Explicit', 'Flat', 'If', 'If', 'In', 'Namespaces', 'Now', 'Readability', 'Simple', 'Sparse', 'Special', 'There', 'Unless', 'a', 'a', 'ambiguity,', 'and', 'are', "aren't", 'at', 'bad', 'be', 'be', 'be', 'beats', 'better', 'better', 'better', 'better', 'better', 'better', 'better', 'better', 'break', 'cases', 'complex.', 'complicated.', 'counts.', 'dense.', 'do', 'do', 'easy', 'enough', 'explain,', 'explain,', 'explicitly', 'face', 'first', 'good', 'great', 'guess.', 'hard', 'honking', 'idea', 'idea.', 'idea.', 'implementation', 'implementation', 'implicit.', 'is', 'is', 'is', 'is', 'is', 'is', 'is', 'is', 'is', 'is', 'it', "it's", 'it.', "let's", 'may', 'may', 'more', 'nested.', 'never', 'never', 'never.', 'not', 'now.', 'obvious', 'of', 'of', 'often', 'one', 'one', 'one--', 'only', 'pass', 'practicality', 'preferably', 'purity.', 'refuse', 'rules.', 'should', 'should', 'silenced.', 'silently.', 'special', 'temptation', 'than', 'than', 'than', 'than', 'than', 'than', 'than', 'than', 'that', 'the', 'the', 'the', 'the', 'the', 'those!', 'to', 'to', 'to', 'to', 'to', 'ugly.', 'unless', 'way', 'way', "you're"]
+2023-05-20 17:04:07,953 =============================================================
+2023-05-20 17:04:07,954 =============================================================
+2023-05-20 17:04:07,954 Today is 2023-05-20 at 05:04 PM
+2023-05-20 17:04:07,954 This file is running on: posix Darwin 20.6.0
+2023-05-20 17:04:07,954 The Python version is: 3.11.3
+2023-05-20 17:04:07,955 The active conda environment is:  None
+2023-05-20 17:04:07,955 The active pip environment is:    None
+2023-05-20 17:04:07,955 The active environment path is:   /Library/Frameworks/Python.framework/Versions/3.11
+2023-05-20 17:04:07,955 The current working directory is: /Users/sarah/Documents/datafun-03-datatypes
+2023-05-20 17:04:07,955 This source file is in:           /Users/sarah/Documents/datafun-03-datatypes
+2023-05-20 17:04:07,955 =============================================================
+2023-05-20 17:04:07,955 =============================================================
+2023-05-20 17:04:07,956 Calling functions from main block
+2023-05-20 17:04:07,956 Let's create 5 lists of words that we could use in our menu for Sarah's Sammie Shoppe.
+2023-05-20 17:04:07,956 The sandwich names: ['BLT', 'Fried Chicken', 'Flank Steak', 'Sliced Turkey', 'Pulled Pork', 'Portabella Mushroom']
+2023-05-20 17:04:07,956 The veggie toppings: ['lettuce', 'jalapenos', 'grilled peppers', 'onions', 'tomato', 'pickles']
+2023-05-20 17:04:07,956 The cheeses: ['colby', 'pepper jack', 'american', 'cheddar', 'provolone', 'Gruyere']
+2023-05-20 17:04:07,956 The spreads: ['mayonnaise', 'garlic aioli', 'honey mustard', 'guacamole', 'ranch', 'pepper BBQ']
+2023-05-20 17:04:07,956 The marketing adjectives: ['Dynamic', 'Subtle', 'Juicy', 'Stellar', 'Fresh', 'Jammin']
+2023-05-20 17:04:07,956 
+2023-05-20 17:04:07,956 String Lists 1. Using Python Built-in Functions
+2023-05-20 17:04:07,956 Here are all of the words that we can choose from in a tuple if needed: [('BLT', 'Dynamic', 'lettuce', 'colby', 'mayonnaise'), ('Fried Chicken', 'Subtle', 'jalapenos', 'pepper jack', 'garlic aioli'), ('Flank Steak', 'Juicy', 'grilled peppers', 'american', 'honey mustard'), ('Sliced Turkey', 'Stellar', 'onions', 'cheddar', 'guacamole'), ('Pulled Pork', 'Fresh', 'tomato', 'provolone', 'ranch'), ('Portabella Mushroom', 'Jammin', 'pickles', 'Gruyere', 'pepper BBQ')]
+2023-05-20 17:04:07,956 There are a 6 types of sandwiches, 6 types of veggies, 6 types of cheeses, and 6 types of spreads.
+2023-05-20 17:04:07,956 There are a total of 24 words used in the choices and a total of 24 unique words
+2023-05-20 17:04:07,956 There are no repeated words in the menu choices.
+2023-05-20 17:04:07,956 
+2023-05-20 17:04:07,957 String Lists 2. Calling create_random_sandwich()
+2023-05-20 17:04:07,957 Random sandwich: The Fresh Fried Chicken with tomato, cheddar cheese, and honey mustard spread.
+2023-05-20 17:04:07,957 
+2023-05-20 17:04:07,957 String Lists 2. Calling create_random_sandwich()
+2023-05-20 17:04:07,957 Random sandwich: The Jammin Sliced Turkey with onions, colby cheese, and garlic aioli spread.
+2023-05-20 17:04:07,957 
+2023-05-20 17:04:07,957 String Lists 2. Calling create_random_sandwich()
+2023-05-20 17:04:07,957 Random sandwich: The Juicy Portabella Mushroom with tomato, pepper jack cheese, and garlic aioli spread.
+2023-05-20 17:04:07,957 
+2023-05-20 17:04:07,957 String Lists 2. Calling create_random_sandwich()
+2023-05-20 17:04:07,957 Random sandwich: The Dynamic Pulled Pork with jalapenos, colby cheese, and honey mustard spread.
+2023-05-20 17:04:07,957 
+2023-05-20 17:04:07,957 String Lists 3. Get Unique Words
+2023-05-20 17:04:07,957 Calling process_text_zen_of_python()
+2023-05-20 17:04:07,958 The list of words is: ['Beautiful', 'is', 'better', 'than', 'ugly.', 'Explicit', 'is', 'better', 'than', 'implicit.', 'Simple', 'is', 'better', 'than', 'complex.', 'Complex', 'is', 'better', 'than', 'complicated.', 'Flat', 'is', 'better', 'than', 'nested.', 'Sparse', 'is', 'better', 'than', 'dense.', 'Readability', 'counts.', 'Special', 'cases', "aren't", 'special', 'enough', 'to', 'break', 'the', 'rules.', 'Although', 'practicality', 'beats', 'purity.', 'Errors', 'should', 'never', 'pass', 'silently.', 'Unless', 'explicitly', 'silenced.', 'In', 'the', 'face', 'of', 'ambiguity,', 'refuse', 'the', 'temptation', 'to', 'guess.', 'There', 'should', 'be', 'one--', 'and', 'preferably', 'only', 'one', '--obvious', 'way', 'to', 'do', 'it.', 'Although', 'that', 'way', 'may', 'not', 'be', 'obvious', 'at', 'first', 'unless', "you're", 'Dutch.', 'Now', 'is', 'better', 'than', 'never.', 'Although', 'never', 'is', 'often', 'better', 'than', '*right*', 'now.', 'If', 'the', 'implementation', 'is', 'hard', 'to', 'explain,', "it's", 'a', 'bad', 'idea.', 'If', 'the', 'implementation', 'is', 'easy', 'to', 'explain,', 'it', 'may', 'be', 'a', 'good', 'idea.', 'Namespaces', 'are', 'one', 'honking', 'great', 'idea', '--', "let's", 'do', 'more', 'of', 'those!']
+2023-05-20 17:04:07,958 There are 137 words in the file.
+2023-05-20 17:04:07,958 The set of unique words is: {'In', 'guess.', 'unless', 'There', 'are', 'better', 'Dutch.', "aren't", 'a', 'Now', 'easy', '--obvious', 'it.', 'now.', 'idea.', 'purity.', 'silently.', 'ambiguity,', 'be', 'one--', 'face', 'Special', 'Explicit', 'pass', 'the', 'hard', 'complicated.', 'than', 'rules.', 'it', 'refuse', 'Beautiful', 'that', 'never', 'Simple', "let's", 'nested.', 'Namespaces', 'and', 'is', 'great', 'silenced.', 'counts.', 'Readability', 'obvious', 'may', 'never.', 'complex.', 'enough', "it's", 'first', 'bad', 'at', 'implicit.', 'implementation', 'good', 'of', 'way', 'Flat', 'one', 'often', 'explicitly', 'should', 'explain,', 'Errors', 'dense.', 'Complex', 'special', 'ugly.', 'break', 'do', 'only', 'practicality', '--', 'idea', '*right*', 'those!', 'If', 'Sparse', 'to', 'temptation', 'honking', 'beats', 'Although', "you're", 'more', 'not', 'Unless', 'preferably', 'cases'}
+2023-05-20 17:04:07,958 There are 90 unique words in the file.
+2023-05-20 17:04:07,958 Here is the sorted list: ['*right*', '--', '--obvious', 'Although', 'Although', 'Although', 'Beautiful', 'Complex', 'Dutch.', 'Errors', 'Explicit', 'Flat', 'If', 'If', 'In', 'Namespaces', 'Now', 'Readability', 'Simple', 'Sparse', 'Special', 'There', 'Unless', 'a', 'a', 'ambiguity,', 'and', 'are', "aren't", 'at', 'bad', 'be', 'be', 'be', 'beats', 'better', 'better', 'better', 'better', 'better', 'better', 'better', 'better', 'break', 'cases', 'complex.', 'complicated.', 'counts.', 'dense.', 'do', 'do', 'easy', 'enough', 'explain,', 'explain,', 'explicitly', 'face', 'first', 'good', 'great', 'guess.', 'hard', 'honking', 'idea', 'idea.', 'idea.', 'implementation', 'implementation', 'implicit.', 'is', 'is', 'is', 'is', 'is', 'is', 'is', 'is', 'is', 'is', 'it', "it's", 'it.', "let's", 'may', 'may', 'more', 'nested.', 'never', 'never', 'never.', 'not', 'now.', 'obvious', 'of', 'of', 'often', 'one', 'one', 'one--', 'only', 'pass', 'practicality', 'preferably', 'purity.', 'refuse', 'rules.', 'should', 'should', 'silenced.', 'silently.', 'special', 'temptation', 'than', 'than', 'than', 'than', 'than', 'than', 'than', 'than', 'that', 'the', 'the', 'the', 'the', 'the', 'those!', 'to', 'to', 'to', 'to', 'to', 'ugly.', 'unless', 'way', 'way', "you're"]
