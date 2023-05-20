@@ -102,7 +102,7 @@ def play_game():
     """Play a game of rock, paper, scissors"""
     logger.info("Calling play_game()")
 
-    ready_for_continous_game = True  # TODO: change this when ready
+    ready_for_continous_game = False  # TODO: change this when ready
     logger.info(f"ready_for_continous_game = {ready_for_continous_game}")
 
     if not ready_for_continous_game:
