@@ -278,6 +278,12 @@ def l6_list_comprehension():
     logger.info(f"Here are is our goal of quadrupling our daily reviews by December (calculated with list comprehension): {quad_reviews}")
 
 
+def show_log():
+    """Read log file and print it to the terminal"""
+    with open(logname, "r") as file_wrapper:
+        print(file_wrapper.read())
+
+
 # -------------------------------------------------------------
 # Call some functions and execute code!
 
@@ -294,3 +300,6 @@ if __name__ == "__main__":
     l4_list_methods()
     l5_filter_map()
     l6_list_comprehension()
+
+    show_log()
+    
