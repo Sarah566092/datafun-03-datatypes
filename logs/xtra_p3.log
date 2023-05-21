@@ -1,0 +1,20 @@
+2023-05-20 19:29:06,621 =============================================================
+2023-05-20 19:29:06,621 =============================================================
+2023-05-20 19:29:06,621 Today is 2023-05-20 at 07:29 PM
+2023-05-20 19:29:06,621 This file is running on: posix Darwin 20.6.0
+2023-05-20 19:29:06,621 The Python version is: 3.11.3
+2023-05-20 19:29:06,622 The active conda environment is:  None
+2023-05-20 19:29:06,622 The active pip environment is:    None
+2023-05-20 19:29:06,622 The active environment path is:   /Library/Frameworks/Python.framework/Versions/3.11
+2023-05-20 19:29:06,622 The current working directory is: /Users/sarah/Documents/datafun-03-datatypes
+2023-05-20 19:29:06,622 This source file is in:           /Users/sarah/Documents/datafun-03-datatypes
+2023-05-20 19:29:06,622 =============================================================
+2023-05-20 19:29:06,622 =============================================================
+2023-05-20 19:29:06,686 There are 415 unique words in Hamlet that are longer that 10 letters
+2023-05-20 19:29:06,686 There are 197 unique words in Julius Ceasar that are longer that 10 letters
+2023-05-20 19:29:06,686 There are 13 that are in both of the plays.
+2023-05-20 19:29:06,686 
+2023-05-20 19:29:06,686 Here are these sorted(longwords) = ['conference.', 'conscience;', 'consequence;', 'constantly.', 'corruption,', 'countenance', 'countenance,', 'enterprise,', 'honourable.', 'immediately.', 'replication', 'themselves,', 'threatening']
+2023-05-20 19:29:06,687 
+2023-05-20 19:29:06,687 TESTING...if nothing prints before the testing is done, you passed!
+2023-05-20 19:29:06,704 TESTING DONE
