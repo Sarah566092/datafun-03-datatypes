@@ -134,7 +134,7 @@ def l3_built_in_functions():
     # Calculate the average of the list
     avg = sum_value / len_value
 
-    logger.info(f"The sum of the # of reviews is {sum}.")
+    logger.info(f"The sum of the # of reviews is {sum_value}.")
     logger.info(f"The average of the # of reviews is {avg:.2f}.")
 
     # Make a set from the list - no repeated values
